@@ -25,7 +25,7 @@ int main()
         for (int j = 0; j < n; j++)
         {
             cout << a[i][j] + b[i][j] << ' '; count++;
-            if (count == 3)
+            if (count == n)
             {
                 cout << '\n';
             }
